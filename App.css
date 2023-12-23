@@ -1,0 +1,70 @@
+
+body{
+  background-image: url("https://media.istockphoto.com/id/157404346/photo/calculator.jpg?s=612x612&w=0&k=20&c=qU2EeHCr0Z-0NQ59Q1xJ1b0ehgzjQ8XvtrQSHOzGoRM=");
+}
+
+.calculator {
+  background-color: #5f0f40;
+  margin: 50px  600px 50px 600px;
+  width: fit-content;
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: 'Arial', sans-serif;
+  justify-content: center;
+  padding: 8px 8px 14px 8px;
+}
+
+h2{
+  color: white;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.display {
+  background-color: white;
+  padding: 10px;
+  text-align: right;
+  border-radius: 8px;
+  height: 50px;
+  width: 340px;
+}
+
+.input {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.buttons{
+border-radius: 6px;
+width: fit-content;
+height: 400px
+}
+
+.row {
+  display: flex;
+  margin-top: 10px;
+}
+
+ button {
+  width: 60px;
+  height: 60px;
+  border-radius: 10%;
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 5px 15px 5px 15px;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+}
+
+button:hover {
+  background-color: #0aeb1df7;
+  border: 2px solid orange;
+} 
+
+button:active {
+  background-color: #ff4242;
+}
